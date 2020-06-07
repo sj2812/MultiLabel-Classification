@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.eclipse.milo', name: 'stack-core', version: '0.3.8'
+    compile group: 'org.eclipse.milo', name: 'sdk-client', version: '0.3.8'
+    compile group: 'org.eclipse.milo', name: 'stack-client', version: '0.3.8'
+    compile group: 'org.eclipse.milo', name: 'sdk-core', version: '0.3.8'
+//    org.eclipse.milo : stack-core
+//    org.eclipse.milo : stack-client
+//    org.eclipse.milo : stack-server
+//    org.eclipse.milo : sdk-core
+//    org.eclipse.milo : sdk-client
+//    org.eclipse.milo : sdk-server
+}
