@@ -2,7 +2,7 @@
 MultiLabel Classification on EURLex dataset based on EUROVOC Description
 
 
-This contains the entire project report on Multilabel text classification ATiML Project Report.pdf
+ATiML Project Report.pdf - This contains the entire project report on Multilabel text classification 
 
 There are four different approaches that were tried:
 
